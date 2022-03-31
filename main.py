@@ -16,8 +16,12 @@ while __name__ == "__main__":
     player_move = moves[player_move_select][0]
     cpu_move = random.choice(list(moves[player_move_select][1].keys()))
 
-    outcome = moves[player_move_select][1][cpu_move]
- 
+    print(player_move)
+    print(cpu_move)
+    
+
+    outcome = moves[player_move_select][1][cpu_move][1]
+    
 
     print("\n")
     print(f"You chose: {player_move}.")
