@@ -4,7 +4,7 @@ moves = {
         "spock": [0, "You lose! Spock smashes scissors!"],
         "paper": [1, "You win! Scissors cuts paper!"],
         "lizard": [1, "You win! Scissors decapitates lizard!"],
-        "scissors": [2, "It's a draw!"]
+        "scissors": [1, "It's a draw!"]
        }
        ],
     "2": ["paper", {
@@ -12,7 +12,7 @@ moves = {
         "lizard": [0, "You lose! Lizard eats paper!"],
         "rock": [1, "You win! Paper covers rock!"],
         "spock": [1, "You Win! Paper disproves Spock!"],
-         "paper": [2, "It's a draw!"]
+         "paper": [1, "It's a draw!"]
         }
     ],
     "3": ["lizard", {
@@ -20,7 +20,7 @@ moves = {
         "rock": [0, "You lose! Rock crushes lizard!"],
         "spock": [1, "You win! Lizard poisons Spock!"],
         "paper": [1, "You win! Lizard eats paper!"],
-        "lizard": [2, "It's a draw!"] 
+        "lizard": [1, "It's a draw!"] 
         }
     ],
     "4": ["rock", {
@@ -28,7 +28,7 @@ moves = {
         "paper": [0, "You lose! Paper covers rock!"],
         "scissors": [1, "You win! Rock crushes scissors!"],
         "lizard": [1, "You win! Rock crushes lizard!"],
-        "rock": [2, "It's a draw!"]
+        "rock": [1, "It's a draw!"]
         }
     ],
     "5": ["spock", {
